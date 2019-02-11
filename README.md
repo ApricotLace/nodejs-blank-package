@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://nodejs.org/en/">
+<a href="https://nodejs.org/en/" target="_blank">
 <img width="150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2880px-Node.js_logo.svg.png">
 </a>
 </p>
