@@ -1,0 +1,59 @@
+{
+  "name": "nodejs-blank-package",
+  "version": "1.0.0",
+  "description": "nodejs package boilerplate ",
+  "main": "dist/index.js",
+  "bin": {
+    "hexlet": "dist/bin/binaryfile.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApricotLace/nodejs-blank-package.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "blank",
+    "nodejs"
+  ],
+  "author": "ApricotLace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ApricotLace/nodejs-blank-package/issues"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "homepage": "https://github.com/ApricotLace/nodejs-blank-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "debug": "^4.1.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-lodash-fp": "^2.2.0-a1",
+    "jest": "^24.1.0",
+    "jest-cli": "^24.1.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
+    "source-map-support": "^0.5.10"
+  }
+}
